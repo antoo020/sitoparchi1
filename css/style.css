@@ -19,7 +19,7 @@ header {
 
 .title-left {
   text-decoration: none;
-    color: black; 
+  color: #000000;
 }
 
 .nav-right ul {
@@ -28,7 +28,11 @@ header {
     padding: 0;
     display: flex;
     gap: 20px;
-    
+}
+
+.nav-right ul li a:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 .nav-right a { 
@@ -97,6 +101,14 @@ header {
     margin: 20px 0;
     padding: 20px;
   }
+
+  .parchi-inprimopiano img {
+    transition: filter 0.3s ease;
+   }
+
+   .parchi-inprimopiano img:hover {
+    filter: brightness(0.5);
+   }
   
   .parchi img {
     width: 100%;
@@ -118,6 +130,11 @@ header {
     font-weight: bold;
 }
 
+.parchi-inprimopiano a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 .attivita-inprimopiano img {
     margin: 20px 0;
     padding: 20px;
@@ -125,15 +142,27 @@ header {
     justify-content: left; 
     padding-left: 200px;
     padding-right: 0%;
+    display: block;
   }
+
+  .attivita-inprimopiano img {
+    transition: filter 0.3s ease;
+   }
+
+   .attivita-inprimopiano img:hover {
+    filter: brightness(0.5);
+   }
   
 .attivita-inprimopiano a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    
-    
-}
+    }
+
+    .attivita-inprimopiano a:hover {
+      color: black;
+      text-decoration: underline;
+    }
 
 .title p {
   padding-left: 200px;
@@ -248,7 +277,6 @@ footer nav ul li a:hover {
 
 .testo p {
   margin-bottom: 16px; 
-  text-align: justify;
   font-size: 14px;
   line-height: 1.6;
   color: black;
@@ -279,13 +307,14 @@ footer nav ul li a:hover {
 
 .intro4 {
   max-width: 960px;
-  padding-left: 220px;
+  padding-left: 120px;
   padding-top: 30px;
+  margin: auto;
 }
 
 .testo-parchi {
   max-width: 970px;
-  padding-left: 200px;
+  padding-left: 250px;
 }
 
 .testo-parchi img {
@@ -304,8 +333,9 @@ footer nav ul li a:hover {
   }
 
 .esperienze div {
-  margin-left: 80px;
-  margin-bottom: 80px;
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-bottom: 70px;
   margin-top: 80px;
   display: flex;
   align-items: flex-start;
@@ -321,7 +351,6 @@ footer nav ul li a:hover {
   font-size: 16px;
   color: #000000;
   margin-inline-start: 10px;
-  
 }
 
 .esperienze span {
@@ -504,6 +533,3 @@ footer nav ul li a:hover {
 }
 
 }
-
-
- 
